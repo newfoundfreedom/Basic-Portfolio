@@ -64,12 +64,20 @@ nav {
     color: #777;
 }
 
+nav a:link {
+  color: #777;
+}
+
+nav a:visited {
+  color: #777;
+}
+
 nav a:hover {
   color: #4aaaa5;
 }
 
-nav a:visited {
-    color: #777;
+nav a:active {
+  color: #4aaaa5;
 }
 
 .divider {
