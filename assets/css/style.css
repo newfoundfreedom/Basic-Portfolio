@@ -64,6 +64,10 @@ nav {
     color: #777;
 }
 
+nav a:hover {
+  color: #4aaaa5;
+}
+
 nav a:visited {
     color: #777;
 }
