@@ -1,10 +1,6 @@
-/*html {
-  box-sizing: border-box;
+html {
+  height: 100%;
 }
-
-  *, *:before, *:after {
-  box-sizing: inherit;
-}*/
 
 .clearfix {
   clear: both;
@@ -12,6 +8,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background-image: url("../images/cheap_diagonal_fabric.png");
   color: #777;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -19,6 +18,7 @@ body {
 }
 
 #main-header {
+  flex: 0 0 auto;
   height: 90px;
   background-color: #fff;
   border-bottom: 2px solid #ccc;
@@ -70,6 +70,7 @@ nav a:visited {
 }
 
 #content-area {
+  flex: 1 0 auto;
   width: 960px;
   margin: 40px auto;
   /*padding-top: 40px;*/
@@ -81,7 +82,6 @@ section {
   border: 1px solid #ddd;
   padding: 40px 30px;
   background-color: #fff;
-  margin-bottom: 40px;
 }
 
 h2 {
@@ -155,6 +155,7 @@ button {
 }
 
 footer {
+  flex: 0 0 auto;
   border-top: 8px solid #4aaaa5;
   padding: 41px 0px;
   background-color: #666;
